@@ -1,0 +1,42 @@
+version: "3"
+
+services:
+  app:
+    build: .
+    container_name: rails-dev-container-app
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/home/rails/app
+    ports:
+      - "3000:3000"
+    environment:
+      POSTGRES_PASSWORD: postgres
+
+  database:
+    image: postgres:14.2-alpine
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - 5432
+    healthcheck:
+      test: pg_isready -U postgres -h 127.0.0.1
+      interval: 5s
+
+  redis:
+    image: redis:7.0.12-alpine3.18
+    volumes:
+      - redis-data:/data
+    ports:
+      - 6379
+    healthcheck:
+      test: redis-cli ping
+      interval: 1s
+      timeout: 3s
+      retries: 30
+
+volumes:
+  postgres-data:
+  redis-data:
