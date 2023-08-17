@@ -1,0 +1,16 @@
+require:
+  - standard
+  - rubocop-rails
+  - rubocop-performance
+
+inherit_gem:
+  standard: config/base.yml
+
+AllCops:
+  TargetRubyVersion: 3.2.2
+  TargetRailsVersion: 7.0.7
+  UseCache: true
+  NewCops: enable
+  Exclude:
+    - public/**/*
+    - vendor/**/*
