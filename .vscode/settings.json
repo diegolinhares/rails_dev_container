@@ -1,5 +1,27 @@
 {
+  "rubyLsp.formatter": "auto",
+  "git.autofetch": true,
   "workbench.colorTheme": "Omni",
   "workbench.iconTheme": "material-icon-theme",
-  "rubyLsp.formatter": "auto"
+  "editor.tabSize": 2,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 24,
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "workbench.editor.labelFormat": "short",
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "extensions.ignoreRecommendations": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.renderLineHighlight": "gutter",
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.semanticHighlighting.enabled": false,
 }
