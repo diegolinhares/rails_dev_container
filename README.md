@@ -76,21 +76,9 @@ Enhance your development experience with the following VS Code extensions:
 
 - **[Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer)** - _Syntax highlighting for log files._
 
-- **[Rails Db Schema](https://marketplace.visualstudio.com/items?itemName=aki77.rails-db-schema)** - _Definition and Completion provider for Rails DB Schema._
+- **[Rails Go to spec](https://marketplace.visualstudio.com/items?itemName=sporto.rails-go-to-spec)** - _VS Code plugin for connecting with the Ruby LSP_
 
-- **[Rails Go to spec](https://marketplace.visualstudio.com/items?itemName=sporto.rails-go-to-spec)** - _Switch between code and spec in Rails._
-
-- **[Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby)** - _Ruby language support and debugging for Visual Studio Code._
-
-- **[Ruby Solargraph](https://marketplace.visualstudio.com/items?itemName=castwide.solargraph)** - _A Ruby language server featuring code completion, intellisense, and inline documentation._
-
-- **[Ruby Test Explorer](https://marketplace.visualstudio.com/items?itemName=connorshea.vscode-ruby-test-adapter)** - _Run your Ruby tests in the Sidebar of Visual Studio Code._
-
-- **[Standard Ruby](https://marketplace.visualstudio.com/items?itemName=testdouble.vscode-standard-ruby)** - _The official VS Code extension for the Standard Ruby linter and code formatter._
-
-- **[Vscode rdbg Ruby Debugger](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg)** - _Ruby's rdbg debugger support for VSCode._
-
-- **[endwise](https://marketplace.visualstudio.com/items?itemName=kaiwood.endwise)** - _Wisely add "end" in Ruby._
+- **[Ruby LSP](https://marketplace.visualstudio.com/items?itemName=Shopify.ruby-lsp)** - _Ruby language support and debugging for Visual Studio Code._
 
 - **[vscode-gemfile](https://marketplace.visualstudio.com/items?itemName=bung87.vscode-gemfile)** - _Provide hover link in Gemfile refers to an online site._
 

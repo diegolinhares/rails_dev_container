@@ -14,17 +14,9 @@
 				"terminal.integrated.defaultProfile.linux": "zsh",
 			},
 			"extensions": [
-				"rebornix.ruby",
-				"testdouble.vscode-standard-ruby",
 				"iliazeus.vscode-ansi",
-				"kaiwood.endwise",
 				"IBM.output-colorizer",
-				"aki77.rails-db-schema",
-				"castwide.solargraph",
-				"KoichiSasada.vscode-rdbg",
 				"bung87.vscode-gemfile",
-				"wingrunr21.vscode-ruby",
-				"connorshea.vscode-ruby-test-adapter",
 				"sporto.rails-go-to-spec",
 				"rocketseat.theme-omni",
 				"PKief.material-icon-theme",
@@ -32,7 +24,8 @@
 				"GitHub.vscode-pull-request-github",
 				"vivaxy.vscode-conventional-commits",
 				"mhutchie.git-graph",
-				"eamodio.gitlens"
+				"eamodio.gitlens",
+				"Shopify.ruby-lsp"
 			]
 		}
 	}

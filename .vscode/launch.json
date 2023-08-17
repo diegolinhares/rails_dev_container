@@ -2,18 +2,21 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "rdbg",
-      "name": "Debug current file with rdbg",
+      "type": "ruby_lsp",
+      "name": "Debug",
       "request": "launch",
-      "script": "${file}",
-      "args": [],
-      "useBundler": false,
-      "command": "ruby"
+      "program": "ruby ${file}"
     },
     {
-      "type": "rdbg",
-      "name": "Attach with rdbg",
-      "request": "attach"
+      "type": "ruby_lsp",
+      "request": "launch",
+      "name": "Debug test file",
+      "program": "ruby -Itest ${relativeFile}"
+    },
+    {
+      "type": "ruby_lsp",
+      "request": "attach",
+      "name": "Attach to existing server"
     }
   ]
 }

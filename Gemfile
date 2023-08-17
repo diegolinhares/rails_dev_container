@@ -12,8 +12,10 @@ gem "bootsnap", require: false
 group :development, :test do
   gem "debug", platforms: %i[mri mingw x64_mingw]
   gem "standard", ">= 1.0", require: false
-  gem "solargraph"
+  gem "rubocop-performance", require: false
+  gem "rubocop-rails", require: false
 end
 
 group :development do
+  gem "ruby-lsp-rails"
 end
