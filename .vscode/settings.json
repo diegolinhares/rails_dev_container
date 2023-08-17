@@ -1,0 +1,19 @@
+{
+  "workbench.colorTheme": "Omni",
+  "solargraph.useBundler": false,
+  "solargraph.transport": "stdio",
+  "solargraph.formatting": true,
+  "solargraph.diagnostics": true,
+  "solargraph.checkGemVersion": true,
+  "solargraph.commandPath": "/usr/local/bundle/bin/solargraph",
+  "standardRuby.autofix": true,
+  "standardRuby.mode": "enableViaGemfile",
+  "standardRuby.commandPath": "/usr/local/bundle/bin/standardrb",
+  "[ruby]": {
+    "editor.defaultFormatter": "testdouble.vscode-standard-ruby"
+  },
+  "rubyTestExplorer.minitestDirectory": "./test/",
+  "rubyTestExplorer.minitestCommand": "bundle exec rake",
+  "rubyTestExplorer.testFramework": "minitest",
+  "workbench.iconTheme": "material-icon-theme"
+}

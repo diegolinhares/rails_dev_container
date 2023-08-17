@@ -1,0 +1,39 @@
+{
+	"name": "Backend",
+	"dockerComposeFile": [
+		"../docker-compose.yaml",
+		"../docker-compose.override.yaml",
+		"docker-compose.yml"
+	],
+	"service": "app",
+	"workspaceFolder": "/home/rails/app",
+	"remoteUser": "rails",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"terminal.integrated.defaultProfile.linux": "zsh",
+			},
+			"extensions": [
+				"rebornix.ruby",
+				"testdouble.vscode-standard-ruby",
+				"iliazeus.vscode-ansi",
+				"kaiwood.endwise",
+				"IBM.output-colorizer",
+				"aki77.rails-db-schema",
+				"castwide.solargraph",
+				"KoichiSasada.vscode-rdbg",
+				"bung87.vscode-gemfile",
+				"wingrunr21.vscode-ruby",
+				"connorshea.vscode-ruby-test-adapter",
+				"sporto.rails-go-to-spec",
+				"rocketseat.theme-omni",
+				"PKief.material-icon-theme",
+				"donjayamanne.githistory",
+				"GitHub.vscode-pull-request-github",
+				"vivaxy.vscode-conventional-commits",
+				"mhutchie.git-graph",
+				"eamodio.gitlens"
+			]
+		}
+	}
+}
