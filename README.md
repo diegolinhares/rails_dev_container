@@ -128,7 +128,7 @@ Once you've opened the project in the DevContainer, Zsh will be the default shel
 
    - Open the project folder in VS Code.
    - If you have the "Dev Container" extension installed (which is recommended), you'll see a pop-up recommending to reopen the folder in a container. Click on "Reopen in Container."
-   - If you don't see the pop-up, you can manually initiate the DevContainer by opening the command palette (Ctrl+Shift+P or Cmd+Shift+P) and searching for "Dev Container."
+   - If you don't see the pop-up, you can manually initiate the DevContainer by opening the command palette (`Ctrl+Shift+P` or `Cmd+Shift+P`) and searching for "Dev Container."
    - Select the option for "Reopen in Container using Docker Compose."
 
 2. **Start Developing:**
